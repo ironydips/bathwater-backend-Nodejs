@@ -1,19 +1,34 @@
 {
-  "name": "bathwater-backend-4thaprl",
-  "version": "0.0.0",
-  "private": true,
+  "name": "csf-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "preinstall": "node bin/symlink.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://nitish-algo@bitbucket.org/algoworks-dev/csf-backend.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "jade": "~1.11.0",
-    "lodash": "^4.17.4",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "bluebird": "^3.4.1",
+    "body-parser": "1.15.2",
+    "connect-mongo": "1.3.2",
+    "connect-mongostore": "0.1.4",
+    "dynamoose": "^0.7.0",
+    "eslint": "3.12.2",
+    "express": "4.14.0",
+    "express-session": "1.14.2",
+    "https": "^1.0.0",
+    "jsonwebtoken": "7.2.1",
+    "lodash": "4.17.2",
+    "moment": "2.17.1",
+    "mongoose": "4.7.3",
+    "nodemailer": "2.7.0",
+    "nodemailer-smtp-transport": "2.7.2",
+    "sha256": "0.2.0",
+    "urlencode": "1.1.0"
   }
 }
